@@ -15,17 +15,18 @@ const Home = () => {
   const [index, setIndex] = useState(0);
   const [Product, setProduct] = useState([])
   const [Caregory, setCategory] = useState([])
+  const [error, setError] = useState()
 
   useEffect(() => {
     axios.get(`${apiUrl}/category`).then((res) => {
       setCategory(res.data)
     }).catch((err) => {
-      setCategory(err)
+      setError(err)
     })
     axios.get(`${apiUrl}/product`).then((res) => {
       setProduct(res.data)
     }).catch((err) => {
-      setProduct(err)
+      setError(err)
     })
   }, [])
 

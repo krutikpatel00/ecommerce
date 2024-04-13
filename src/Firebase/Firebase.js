@@ -12,9 +12,11 @@ const firebaseConfig = {
       projectId: "e-commerce-703cb",
       storageBucket: "e-commerce-703cb.appspot.com",
       messagingSenderId: "770681012079",
-      appId: "1:770681012079:web:acba9583c59028a1b1b29a",
-      measurementId: "G-8XE4TM5ZK7"
+      appId: "1:770681012079:web:8857b7bc384f19b6b1b29a",
+      measurementId: "G-X428TDTL7D"
 };
+
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);

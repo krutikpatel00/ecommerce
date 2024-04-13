@@ -1,4 +1,5 @@
-import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom'
+import 'remixicon/fonts/remixicon.css';
+import { BrowserRouter, Routes, Route,  } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
@@ -49,14 +50,9 @@ function AppendApp() {
         <Route path='/productDetails/:id' element={<ProductDetails />}></Route>
         <Route path='/card' element={<Card />}></Route>
         <Route path='/user' element={<Profile />}></Route>
-
       </Routes>
     )
   }
-
-
-
-
 }
 
 export default App;
