@@ -1,0 +1,891 @@
+{
+  "category": [
+    {
+      "id": "68ca",
+      "category_name": "Electronics"
+    },
+    {
+      "id": "e131",
+      "category_name": "Men"
+    },
+    {
+      "id": "3240",
+      "category_name": "Women"
+    },
+    {
+      "id": "d64a",
+      "category_name": "Kids"
+    },
+    {
+      "id": "93c3",
+      "category_name": "Furniture"
+    }
+  ],
+  "subcategory": [
+    {
+      "id": "a4c8",
+      "category_name": "Electronics",
+      "subcategory_name": "Mobiles"
+    },
+    {
+      "id": "acda",
+      "category_name": "Electronics",
+      "subcategory_name": "Laptops"
+    },
+    {
+      "id": "84ba",
+      "category_name": "Men",
+      "subcategory_name": "T-Shirts"
+    },
+    {
+      "id": "5a46",
+      "category_name": "Men",
+      "subcategory_name": "Jeans"
+    },
+    {
+      "id": "d438",
+      "category_name": "Men",
+      "subcategory_name": "Jackets"
+    },
+    {
+      "id": "d495",
+      "category_name": "Women",
+      "subcategory_name": "Kurtas "
+    },
+    {
+      "id": "b603",
+      "category_name": "Women",
+      "subcategory_name": "Dress "
+    },
+    {
+      "id": "9d19",
+      "subcategory_name": "Heels"
+    },
+    {
+      "id": "3938",
+      "subcategory_name": "Toys",
+      "category_name": "Kids"
+    },
+    {
+      "id": "5bdf",
+      "subcategory_name": "Bedsheets",
+      "category_name": "Furniture"
+    },
+    {
+      "id": "aff9",
+      "subcategory_name": "Curtains",
+      "category_name": "Furniture"
+    }
+  ],
+  "brand": [
+    {
+      "id": "ffd2",
+      "category_name": "Electronics",
+      "subcategory_name": "Mobiles",
+      "brand_name": "Mi"
+    },
+    {
+      "id": "b29a",
+      "category_name": "Electronics",
+      "subcategory_name": "Mobiles",
+      "brand_name": "Realme"
+    },
+    {
+      "id": "92eb",
+      "category_name": "Electronics",
+      "subcategory_name": "Mobiles",
+      "brand_name": "Samsung"
+    },
+    {
+      "id": "3679",
+      "category_name": "Electronics",
+      "subcategory_name": "Mobiles",
+      "brand_name": "Apple"
+    },
+    {
+      "id": "dcac",
+      "category_name": "Men",
+      "subcategory_name": "T-Shirts",
+      "brand_name": "AllenSolly"
+    },
+    {
+      "id": "51c0",
+      "category_name": "Men",
+      "subcategory_name": "T-Shirts",
+      "brand_name": "U.S.POLOASSN."
+    },
+    {
+      "id": "e380",
+      "category_name": "Men",
+      "subcategory_name": "Jeans",
+      "brand_name": "LEVI'S"
+    },
+    {
+      "id": "a439",
+      "category_name": "Men",
+      "subcategory_name": "Jeans",
+      "brand_name": "KILLER"
+    },
+    {
+      "id": "c068",
+      "category_name": "Men",
+      "subcategory_name": "Jeans",
+      "brand_name": "PETER ENGLAND"
+    },
+    {
+      "id": "1f28",
+      "category_name": "Electronics",
+      "subcategory_name": "Laptops",
+      "brand_name": "Lenovo"
+    },
+    {
+      "id": "c94a",
+      "category_name": "Electronics",
+      "subcategory_name": "Laptops",
+      "brand_name": "Asus"
+    },
+    {
+      "id": "8b12",
+      "category_name": "Men",
+      "subcategory_name": "Jackets",
+      "brand_name": "Allen Solly"
+    },
+    {
+      "id": "fd96",
+      "category_name": "Men",
+      "subcategory_name": "Jackets",
+      "brand_name": "Breil By Fort Collins"
+    },
+    {
+      "id": "5abe",
+      "category_name": "Women",
+      "subcategory_name": "Kurtas",
+      "brand_name": "BIBA"
+    },
+    {
+      "id": "f491",
+      "category_name": "Women",
+      "subcategory_name": "Kurtas",
+      "brand_name": "Aurelia"
+    },
+    {
+      "id": "4b84",
+      "category_name": "Women",
+      "subcategory_name": "Kurtas",
+      "brand_name": "LIBAS"
+    },
+    {
+      "id": "d72c",
+      "category_name": "Women",
+      "subcategory_name": "Dress",
+      "brand_name": "SASSAFRAS"
+    },
+    {
+      "id": "823a",
+      "category_name": "Women",
+      "subcategory_name": "Dress",
+      "brand_name": "HARPA"
+    },
+    {
+      "id": "79cf",
+      "category_name": "Kids",
+      "brand_name": "Remote",
+      "subcategory_name": "Toys"
+    },
+    {
+      "id": "73d6",
+      "category_name": "Kids",
+      "subcategory_name": "Toys",
+      "brand_name": "BESTSELLER"
+    },
+    {
+      "id": "1619",
+      "category_name": "Furniture",
+      "subcategory_name": "Bedsheets",
+      "brand_name": "Raymond"
+    },
+    {
+      "id": "8039",
+      "category_name": "Furniture",
+      "subcategory_name": "Curtains",
+      "brand_name": "HOMEMONDE"
+    }
+  ],
+  "product": [
+    {
+      "id": "25f2",
+      "category_name": "Men",
+      "subcategory_name": "Jeans",
+      "brand_name": "LEVI'S",
+      "product_title": "Men Slim Mid Rise Dark Blue Jeans",
+      "product_price": "1079",
+      "product_old_price": "2699",
+      "product_description": "Style Code\n148226101\nIdeal For\nMen\nSuitable For\nWestern Wear\nPack Of\n1\nPattern\nSolid\nReversible\nNo\nSales Package\n1, Jeans\nClosure\nButton & Zip\nFabric\nCotton Blend\nFaded\nLight Fade\nRise\nMid Rise\nDistressed\nClean Look\nStretchable\nYes\nColor\nDark Blue\nFly\nButton\nFabric Care\nMachine Wash\nOther Details\nJack & Jones Blue Slim Fit Stretch Jeans\nNet Quantity\n1",
+      "product_stock": "100",
+      "product_rating": "3",
+      "product_image": "https://rukminim2.flixcart.com/image/832/832/xif0q/jean/b/7/a/36-148226101-jack-jones-original-imagvbufzvwkpqzw.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "1b0f",
+      "category_name": "Electronics",
+      "subcategory_name": "Mobiles",
+      "brand_name": "Mi",
+      "product_title": "Xiaomi 14 (White, 512 GB)  (12 GB RAM)",
+      "product_description": "\nExperience the pinnacle of photography with the Xiaomi 14, the product of the innovative partnership between Xiaomi and Leica. With three 50 MP Leica cameras, you can unleash your imagination and capture the subtleties of life with unmatched clarity. With its wide aperture, the primary 50 MP Summilux camera steals the show and produces amazing pictures across a range of lighting settings. Leica Cinematography has remarkable cinematic qualities, providing GoPro and Dolby Vision video recording. The phone's design guarantees an immersive viewing experience with its ultra-comfortable grip and state-of-the-art display technology. The Snapdragon 8 Gen 3-powered Xiaomi 14 skillfully strikes a mix between economy and performance. With the 90 W HyperCharge, charging is simplified. Its IP68 certification ensures durability, and its CCG technology provides maximum performance when charging.",
+      "product_old_price": "79999",
+      "product_price": "69999",
+      "product_stock": "50",
+      "product_rating": "5",
+      "product_image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/n/8/f/14-mzb0gffin-xiaomi-original-imagyrgcgz4nhz7u.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "5495",
+      "category_name": "Electronics",
+      "subcategory_name": "Laptops",
+      "brand_name": "Lenovo",
+      "product_title": "Lenovo IdeaPad Flex 5 Intel Core i7 11th Gen - (16 GB/512 GB SSD/Windows 10 Home) 14ITL05 2 in 1 Laptop  (14 inch, Graphite Grey, 1.5 kg, With MS Office)",
+      "product_image": "https://rukminim2.flixcart.com/image/416/416/ku5ufm80/computer/a/x/a/na-2-in-1-laptop-lenovo-original-imag7cmytyfjazq4.jpeg?q=70&crop=false",
+      "product_rating": "4",
+      "product_stock": "15",
+      "product_description": "This Lenovo laptop is equipped with the 3D surround sound technology so that you can not only hear the music but also feel it. It has a powerful battery that supports long-lasting usage while the Quick Charge technology ensures that you get to enjoy up to 3 hours of usage after charging it for 15 minutes.",
+      "product_old_price": "110000",
+      "product_price": "87000"
+    },
+    {
+      "id": "2cf8",
+      "product_old_price": "18999",
+      "category_name": "Electronics",
+      "subcategory_name": "Mobiles",
+      "brand_name": "Mi",
+      "product_title": "REDMI 10 Power (Power Black, 128 GB)  (8 GB RAM)",
+      "product_image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/e/y/b/-original-imageftfzx8gfkys.jpeg?q=70&crop=false",
+      "product_description": "You can get a lot done every day using the REDMI 10 Power Smartphone and make your life easy. It is integrated with a powerful battery with a capacity of up to 6000 mAh, which lets you operate it for a long time without worrying about any interruptions. Also, this smartphone is built with a large screen of up to 17.04 cm (6.71), letting you have a good view of your documents, pictures, and much more. Furthermore, its internal storage of up to 128 GB is ideal for storing a large amount of data, including pictures, videos, apps, and more.",
+      "product_price": "9999",
+      "product_stock": "10",
+      "product_rating": "4"
+    },
+    {
+      "id": "ae1d",
+      "product_image": "https://rukminim2.flixcart.com/image/416/416/kq6yefk0/mobile/i/w/m/11-lite-m2101k9ai-mi-original-imag496gkgqjrvvg.jpeg?q=70&crop=false",
+      "product_title": "Mi 11 Lite (Jazz Blue, 128 GB)  (6 GB RAM)",
+      "product_price": "16999",
+      "product_old_price": "24999",
+      "product_description": "\nGet ready to steal glances wherever you go with the Mi 11 Lite smartphone. Featuring a slim and lightweight construction, this functional and versatile smartphone is sure to make you look your stylish best. It features a stunning 64 MP camera, with TetraPixel technology and 23 Director modes, to help you capture life's precious moments in all their glory. Moreover, it runs on the Qualcomm Snapdragon 732G processor, offering smooth performance and seamless multitasking capabilities at all times. What's more, it is equipped with a 4250 mAh all-day battery, to keep you company for long hours without having to worry about a low-battery notification.",
+      "product_stock": "20",
+      "product_rating": "4"
+    },
+    {
+      "id": "e53a",
+      "category_name": "Electronics",
+      "subcategory_name": "Mobiles",
+      "brand_name": "Mi",
+      "product_title": "Mi 10T Pro (Cosmic Black, 128 GB)  (8 GB RAM)",
+      "product_image": "https://rukminim2.flixcart.com/image/416/416/kg6vfrk0/mobile/e/s/6/mi-10t-pro-mzb07zdin-original-imafwhbrythgcddt.jpeg?q=70&crop=false",
+      "product_price": "47999",
+      "product_old_price": "72999",
+      "product_description": "\nExperience flagship performance with this smartphone’s Qualcomm Snapdragon 865 processor with 5G. Loaded with a 108 MP triple-rear-camera system and a 20-megapixel front camera, this phone ensures that your photography needs are well taken care of.\n",
+      "product_stock": "0",
+      "product_rating": "4"
+    },
+    {
+      "id": "c339",
+      "category_name": "Electronics",
+      "subcategory_name": "Mobiles",
+      "brand_name": "Mi",
+      "product_title": "realme C53 (Champion Black, 128 GB)  (6 GB RAM)",
+      "product_price": "9999",
+      "product_old_price": "15999",
+      "product_description": "\nEnjoy a seamless experience with multitude of benefits on this realme C53 smartphone. Take stunning photoshoots with the 108 MP camera and take amazing photos in pixel mode and 3X zoom modes. Sporting a slim 7.99 mm display, you can have an amazing visual interaction with your phone with 90 Hz refresh rates. The powerful octa-core chipset available with this phone enhances your performance and productivity. Supported with up to 6 GB of RAM and 128 GB of ROM, your phone responds superfast and has massive storage capacity. Powered with a 5000 mAh battery and 18 W fast charger, this phone can be carried anywhere and can be used all day. You can stay updated with the number of steps, daily walking distance etc., with this mini capsule.",
+      "product_stock": "20",
+      "product_rating": "4",
+      "product_image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/5/q/6/-original-imags487ftf3g2s7.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "78f9",
+      "product_old_price": "31999",
+      "product_price": "26999",
+      "product_title": "realme 12 Pro 5G (Submarine Blue, 256 GB)  (8 GB RAM)",
+      "product_description": "In a world dominated by innovation, the realme 12 Pro 5G stands out as a beacon of excellence. It's not just a smartphone; it's a testament to realme's dedication to pushing the boundaries of what's possible. Elevate your mobile experience, capture moments with unprecedented clarity, and indulge in a device that seamlessly blends performance, design, and cutting-edge technology. Choose realme – where every feature is a step toward a future of limitless possibilities.",
+      "category_name": "Electronics",
+      "subcategory_name": "Mobiles",
+      "brand_name": "Realme",
+      "product_image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/l/x/c/-original-imagx6rdpmhuq5ba.jpeg?q=70&crop=false",
+      "product_rating": "4",
+      "product_stock": "50"
+    },
+    {
+      "id": "7143",
+      "category_name": "Electronics",
+      "subcategory_name": "Mobiles",
+      "brand_name": "Realme",
+      "product_title": "realme Narzo 60 Pro 5G (Mars orange, 128 GB)  (8 GB RAM)",
+      "product_image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/s/h/j/narzo-60-pro-5g-rmx3771-realme-original-imagrhu7n7fg32ax.jpeg?q=70&crop=false",
+      "product_description": "\nHandset, USB Power Adapter, USB Cable, Sim Eject Tool, Phone Case, Protective Film (Applied), Documentation",
+      "product_stock": "200",
+      "product_rating": "3",
+      "product_old_price": "26999",
+      "product_price": "22999"
+    },
+    {
+      "id": "f615",
+      "category_name": "Electronics",
+      "subcategory_name": "Mobiles",
+      "brand_name": "Realme",
+      "product_title": "realme 10 Pro+ 5G (Hyperspace, 128 GB)  (6 GB RAM)",
+      "product_price": "24999",
+      "product_old_price": "26999",
+      "product_description": "Display your personality and make a fashion statement with the Realme 10 Pro+ 5G, which gives you a fantastic user experience. With its 17.01 cm (6.7) AMOLED curved display screen that has 2160 Hz PWM Dimming, TUV Rheinland Low Blue Light Certificate, 1260 Hz Turbocharged Touch Sampling, and X-touch Anti-mistouch Algorithm, this smartphone makes a great advancement. With its 108 MP ProLight Camera, this smartphone also provides you with amazing photographic and filming features that let you capture priceless memories. This smartphone further advances the advancement by providing you with a Dimensity 1080 5G Processor, which is completely compatible with all 5G bands. Moreover, the Realme 10 Pro+ 5G's large 8+8 GB Dynamic RAM arrangement allows you to view many files or programmes, play games, and switch between apps without experiencing any latency.",
+      "product_stock": "150",
+      "product_rating": "3",
+      "product_image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/3/q/k/-original-imagkp8f9vrfqtfg.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "6607",
+      "category_name": "Electronics",
+      "subcategory_name": "Mobiles",
+      "brand_name": "Realme",
+      "product_image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/o/o/v/narzo-50-pro-5g-rmx3395-realme-original-imagggt8gyxmjwba.jpeg?q=70&crop=false",
+      "product_old_price": "25999",
+      "product_price": "21999",
+      "product_title": "realme Narzo 50 Pro 5G (Hyper Black, 128 GB)  (6 GB RAM)",
+      "product_description": "\nSim Card Tool, Adapter, Screen Protector, Phone Case, USB Cable",
+      "product_stock": "75",
+      "product_rating": "3"
+    },
+    {
+      "id": "0098",
+      "category_name": "Electronics",
+      "subcategory_name": "Mobiles",
+      "brand_name": "Samsung",
+      "product_image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/f/n/u/-original-imagx9egm9mgmvab.jpeg?q=70&crop=false",
+      "product_old_price": "144999",
+      "product_price": "139999",
+      "product_title": "SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 512 GB)  (12 GB RAM)",
+      "product_description": "Behold the Samsung Galaxy S24 Ultra smartphone, an exceptional amalgamation of incredible technology and superior sophistication. Whether you're typing up a storm or jotting something down, Note Assist makes a long story short. New AI-powered editing options let you get the photo you want, like relocating objects and intelligently filling in the space they left behind. With a durable shield of titanium built right into the frame and better scratch resistance with Corning Gorilla Armor, your IP68 water and dust-resistant Galaxy S24 Ultra is ready for adventure. Write, tap, and navigate with the precision your fingers wish they had on the new, flat display.",
+      "product_stock": "58",
+      "product_rating": "5"
+    },
+    {
+      "id": "12a6",
+      "category_name": "Electronics",
+      "subcategory_name": "Mobiles",
+      "brand_name": "Samsung",
+      "product_title": "SAMSUNG Galaxy S24 5G (Onyx Black, 256 GB)  (8 GB RAM)",
+      "product_image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/3/w/j/-original-imagx9eff9z2qje6.jpeg?q=70&crop=false",
+      "product_description": "\nBehold the Samsung Galaxy S24 smartphone, an exceptional amalgamation of incredible technology and superior sophistication. Unlock the magic of AI-powered photo editing. Now you can effortlessly perfect your photos, ensuring every image shines. Whether you're taking a super sweet selfie, shooting wide-angle pics, or zooming in, these cameras will help ensure you leave with a pixel-perfect shot. A true pixel powerhouse that will not disappoint. Ever. Snap high-res pics for that will no doubt withstand the test of time for years to come.",
+      "product_price": "79999",
+      "product_old_price": "99999",
+      "product_stock": "48",
+      "product_rating": "4"
+    },
+    {
+      "id": "b672",
+      "category_name": "Electronics",
+      "subcategory_name": "Mobiles",
+      "brand_name": "Samsung",
+      "product_title": "SAMSUNG Galaxy F15 5G (Ash Black, 128 GB)  (4 GB RAM)",
+      "product_image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/k/8/n/-original-imagymhwtgmdr3v2.jpeg?q=70&crop=false",
+      "product_price": "9999",
+      "product_old_price": "15999",
+      "product_description": "\nThe Samsung Galaxy F15 is a pinnacle of mobile brilliance, featuring a vibrant sAMOLED display for an immersive visual journey. Experience unmatched battery endurance, lasting up to two days, and revel in four years of hassle-free performance with a powerful MediaTek Dimensity 6100+ and up to 12 GB of RAM. Silence background sounds with noise cancellation, seamlessly share across devices, and enjoy superfast 5G speeds. Capture every detail with the 50 MP triple camera setup and have fun with the front-facing camera's creative features. Fortify your security with the Samsung Knox Vault Chipset and personalise your experience with Smart UI features. The Galaxy F15 redefines smartphone excellence in a compact and versatile package, catering to every aspect of a modern, connected lifestyle.",
+      "product_stock": "90",
+      "product_rating": "4"
+    },
+    {
+      "id": "8dde",
+      "category_name": "Electronics",
+      "subcategory_name": "Mobiles",
+      "brand_name": "Apple",
+      "product_title": "Apple iPhone 15 (Blue, 128 GB)",
+      "product_old_price": "79900",
+      "product_price": "65900",
+      "product_description": "\nExperience the iPhone 15 – your dynamic companion. Dynamic Island ensures you stay connected, bubbling up alerts seamlessly while you're busy. Its durable design features infused glass and aerospace-grade aluminum, making it dependable and resistant to water and dust. Capture life with precision using the 48 MP Main Camera, perfect for any shot. Powered by the A16 Bionic Processor, it excels in computational photography and more, all while conserving battery life. Plus, it's USB-C compatible, simplifying your charging needs. Elevate your tech game with the iPhone 15 – innovation at your fingertips. Goodbye cable clutter, hello convenience.",
+      "product_stock": "20",
+      "product_rating": "4",
+      "product_image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/k/l/l/-original-imagtc5fz9spysyk.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "3d64",
+      "category_name": "Electronics",
+      "subcategory_name": "Mobiles",
+      "brand_name": "Apple",
+      "product_title": "Apple iPhone 15 Pro (Natural Titanium, 128 GB)",
+      "product_old_price": "134900",
+      "product_price": "127990",
+      "product_description": "\niPhone 15 Pro, a titanium marvel, boasts an aerospace-grade build, making it the lightest Pro model ever. The A17 Pro Chip marks a historic leap in Apple GPUs, delivering unparalleled graphics performance and immersive gaming experiences. The camera system shines with a 48MP Main camera, offering remarkable detail and automatic portrait enhancements. Convenience is key with the Action button for quick tasks and Focus filters. Plus, it's USB 3 compatible, revolutionizing data transfer speeds. This iPhone even shares its charging cable with your Mac or iPad. Embrace innovation, cut cable clutter, and elevate your mobile experience with the iPhone 15 Pro.",
+      "product_stock": "200",
+      "product_rating": "5",
+      "product_image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/9/u/a/-original-imagtc4hsx9mzfra.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "252a",
+      "category_name": "Electronics",
+      "subcategory_name": "Mobiles",
+      "brand_name": "Apple",
+      "product_title": "Apple iPhone 15 (Green, 128 GB)",
+      "product_image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/j/z/3/-original-imagtc5fqyz8tu4c.jpeg?q=70&crop=false",
+      "product_old_price": "79600",
+      "product_price": "66999",
+      "product_description": "\nExperience the iPhone 15 – your dynamic companion. Dynamic Island ensures you stay connected, bubbling up alerts seamlessly while you're busy. Its durable design features infused glass and aerospace-grade aluminum, making it dependable and resistant to water and dust. Capture life with precision using the 48 MP Main Camera, perfect for any shot. Powered by the A16 Bionic Processor, it excels in computational photography and more, all while conserving battery life. Plus, it's USB-C compatible, simplifying your charging needs. Elevate your tech game with the iPhone 15 – innovation at your fingertips. Goodbye cable clutter, hello convenience.",
+      "product_stock": "45",
+      "product_rating": "4"
+    },
+    {
+      "id": "66fa",
+      "product_title": "Lenovo IdeaPad Gaming 3 Intel Core i5 12th Gen 12450H - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050) 15IAH7 Gaming Laptop  (15.6 inch, Onyx Grey, 2.315 kg, With MS Office)",
+      "category_name": "Electronics",
+      "subcategory_name": "Laptops",
+      "brand_name": "Lenovo",
+      "product_old_price": "96400",
+      "product_price": "67900",
+      "product_description": "It's good for daily usage and casual gaming. GC is RTX 3050 but only 4gb with 85watt. 16GB ram is good in 2023. FHD display with 120hz refresh rate. Ok for me. I5 12th gen processor is good. 8 core and 12 threds. Thermals are good. Nice heat management for Indian summer. Looks cool not bulky. Last but not least, it don't have mux switch but have lenovo vantage where it can set to for different profile, like hybrid or performance or power saving. Overall, am happy with the laptop. Best value ...",
+      "product_image": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/i/y/m/-original-imagu3kmq9f2tapj.jpeg?q=70&crop=false",
+      "product_stock": "10",
+      "product_rating": "4"
+    },
+    {
+      "id": "52c8",
+      "category_name": "Electronics",
+      "subcategory_name": "Laptops",
+      "brand_name": "Asus",
+      "product_title": "ASUS Vivobook 16X For Creator, Intel H-Series Intel Core i5 12th Gen 12450H - (16 GB/512 GB SSD/Windows 11 Home/6 GB Graphics/NVIDIA GeForce RTX 4050) K3605ZU-MBN541WS Gaming Laptop  (16 Inch, Indie Black, 1.80 Kg, With MS Office)",
+      "product_old_price": "116900",
+      "product_image": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/d/t/c/-original-imagsz6yn8qzwvsn.jpeg?q=70&crop=false",
+      "product_rating": "4",
+      "product_stock": "20",
+      "product_description": "Vivobook 16X has the power to turn your ideas into creations faster than ever, thanks to its super-powerful 12th Gen Intel Core H-series processor and NVIDIA® GeForce RTX™ 30-Series Laptop GPU. These are supported by a PCIe SSD, DDR4 memory and ultrafast WiFi 6E — the perfect high-performance choices for this stylish powerhouse.",
+      "product_price": "79990"
+    },
+    {
+      "id": "4dbe",
+      "category_name": "Men",
+      "subcategory_name": "T-Shirts",
+      "brand_name": "U.S.POLOASSN.",
+      "product_image": "https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/c/c/r/l-bello-230-b-sf-p-classic-polo-original-imagrxqpvycfegra.jpeg?q=70&crop=false",
+      "product_title": "Men Printed Polo Neck Pure Cotton Black T-Shirt",
+      "product_stock": "20",
+      "product_old_price": "999",
+      "product_price": "856",
+      "product_description": "Type\nPolo Neck\nSleeve\nShort Sleeve\nFit\nSlim\nFabric\nPure Cotton\nSales Package\n1 T-Shirt\nPack of\n1\nStyle Code\nBELLO - 230 B SF P\nNeck Type\nPolo Neck"
+    },
+    {
+      "id": "6b28",
+      "category_name": "Men",
+      "subcategory_name": "T-Shirts",
+      "brand_name": "U.S.POLOASSN.",
+      "product_title": "Men Solid Polo Neck Pure Cotton Light Blue T-Shirt",
+      "product_old_price": "999",
+      "product_price": "856",
+      "product_description": "Type\nPolo Neck\nSleeve\nShort Sleeve\nFit\nSlim\nFabric\nPure Cotton\nSales Package\n1 T-Shirt\nPack of\n1\nStyle Code\nBELLO - 230 B SF P\nNeck Type\nPolo Neck",
+      "product_stock": "50",
+      "product_rating": "4",
+      "product_image": "https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/t/y/h/m-ustshs1761-u-s-polo-assn-original-imagyg2sbjffgrcf.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "fde8",
+      "category_name": "Men",
+      "subcategory_name": "T-Shirts",
+      "brand_name": "AllenSolly",
+      "product_title": "Men Solid Round Neck Pure Cotton Brown T-Shirt",
+      "product_old_price": "1499",
+      "product_price": "299",
+      "product_description": "Type\nRound Neck\nSleeve\nHalf Sleeve\nFit\nRegular\nFabric\nPure Cotton\nSales Package\n1\nPack of\n1\nStyle Code\nRHP0572\nNeck Type\nRound Neck",
+      "product_stock": "85",
+      "product_rating": "4",
+      "product_image": "https://rukminim2.flixcart.com/image/832/832/kz1lle80/t-shirt/k/l/i/xl-rhp0572-red-tape-original-imagb52jamm9gvfs.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "887e",
+      "category_name": "Men",
+      "subcategory_name": "T-Shirts",
+      "brand_name": "AllenSolly",
+      "product_title": "Men Solid Polo Neck Cotton Blend Black T-Shirt",
+      "product_old_price": "1099",
+      "product_price": "856",
+      "product_description": "Product Details\n\nType\nPolo Neck\nSleeve\nHalf Sleeve\nFit\nRegular\nFabric\nCotton Blend\nPack of\n1\nStyle Code\nASKPQRGFL69383\nNeck Type\nPolo Nec",
+      "product_stock": "100",
+      "product_rating": "4",
+      "product_image": "https://rukminim2.flixcart.com/image/832/832/l4vnbm80/t-shirt/i/j/q/m-askporgfj72665-new-allen-solly-original-imagfzk8vjxgurcj.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "eb76",
+      "category_name": "Men",
+      "subcategory_name": "Jeans",
+      "brand_name": "LEVI'S",
+      "product_title": "Men Regular Mid Rise Dark Blue Jeans",
+      "product_old_price": "21200",
+      "product_price": "890",
+      "product_description": "Very good quality and comfortable to wear, looking so cool",
+      "product_stock": "100",
+      "product_rating": "3",
+      "product_image": "https://rukminim2.flixcart.com/image/832/832/xif0q/jean/q/n/r/32-127955701-jack-jones-original-imagvbuh625ukvpr.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "9c98",
+      "category_name": "Men",
+      "subcategory_name": "Jeans",
+      "brand_name": "LEVI'S",
+      "product_title": "Men Slim Mid Rise Blue Jeans",
+      "product_old_price": "21200",
+      "product_price": "1400",
+      "product_description": "Ok good product......",
+      "product_stock": "50",
+      "product_rating": "3",
+      "product_image": "https://rukminim2.flixcart.com/image/832/832/xif0q/jean/q/n/r/32-127955701-jack-jones-original-imagvbuh625ukvpr.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "9162",
+      "category_name": "Men",
+      "subcategory_name": "Jeans",
+      "brand_name": "LEVI'S",
+      "product_title": "Men Slim Mid Rise Blue Jeans",
+      "product_old_price": "21200",
+      "product_price": "1400",
+      "product_description": "Ok good product......",
+      "product_stock": "50",
+      "product_rating": "3",
+      "product_image": "https://rukminim2.flixcart.com/image/832/832/xif0q/jean/c/f/r/-original-imagy58pserp6fpj.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "5e5b",
+      "category_name": "Men",
+      "subcategory_name": "Jeans",
+      "brand_name": "KILLER",
+      "product_title": "Men Slim Mid Rise Dark Green Jeans",
+      "product_image": "https://rukminim2.flixcart.com/image/832/832/xif0q/jean/j/v/z/32-i-attitude-1259-slmft-olv-integriti-original-imagxm4a5ede4hdy.jpeg?q=70&crop=false",
+      "product_rating": "4",
+      "product_stock": "400",
+      "product_old_price": "2999",
+      "product_price": "1800",
+      "product_description": "Style Code\nI-ATTITUDE-1259 SLMFT OLV\nIdeal For\nMen\nSuitable For\nWestern Wear\nPack Of\n1\nPocket Type\nCoin Pocket, Curved Pocket, Patch Pocket\nPattern\nSolid\nReversible\nNo\nSales Package\n1 Jean\n"
+    },
+    {
+      "id": "3b8f",
+      "category_name": "Men",
+      "subcategory_name": "Jeans",
+      "brand_name": "KILLER",
+      "product_title": "Men Slim Mid Rise Dark Blue Jeans",
+      "product_price": "399",
+      "product_old_price": "2999",
+      "product_description": "Style Code\nI-ATTITUDE-1259 SLMFT OLV\nIdeal For\nMen\nSuitable For\nWestern Wear\nPack Of\n1\nPocket Type\nCoin Pocket, Curved Pocket, Patch Pocket\nPattern\nSolid\nReversible\nNo\nSales Package\n1 Jean",
+      "product_stock": "200",
+      "product_rating": "4",
+      "product_image": "https://rukminim2.flixcart.com/image/832/832/xif0q/jean/c/j/q/-original-imagucbxx6ra5s8t.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "fd34",
+      "category_name": "Men",
+      "Product_size": {
+        "category_name": "Men",
+        "Product_size": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "subcategory_name": "Jeans",
+        "brand_name": "PETER ENGLAND",
+        "product_title": "Men Slim Mid Rise Blue Jeans",
+        "product_image": "https://rukminim2.flixcart.com/image/832/832/ktuewsw0/jean/d/c/q/32-k-icon-matty-integriti-original-imag73vppa4hxzdt.jpeg?q=70&crop=false",
+        "product_price": "1999",
+        "product_old_price": "2399",
+        "product_description": "Style Code\nK-ICON MATTY\nIdeal For\nMen\nSuitable For\nWestern Wear\nPack Of\n1\nPocket Type\nCoin Pocket, Curved Pocket, Patch Pocket\nReversible\nNo\nFabric\nCotton Lycra Blend\nFaded\nLight Fade",
+        "product_stock": "100",
+        "product_rating": "4"
+      },
+      "subcategory_name": "Jeans",
+      "brand_name": "PETER ENGLAND",
+      "product_title": "Men Slim Mid Rise Blue Jeans",
+      "product_image": "https://rukminim2.flixcart.com/image/832/832/ktuewsw0/jean/d/c/q/32-k-icon-matty-integriti-original-imag73vppa4hxzdt.jpeg?q=70&crop=false",
+      "product_price": "1999",
+      "product_old_price": "2399",
+      "product_description": "Style Code\nK-ICON MATTY\nIdeal For\nMen\nSuitable For\nWestern Wear\nPack Of\n1\nPocket Type\nCoin Pocket, Curved Pocket, Patch Pocket\nReversible\nNo\nFabric\nCotton Lycra Blend\nFaded\nLight Fade",
+      "product_stock": "100",
+      "product_rating": "4"
+    },
+    {
+      "id": "9f5c",
+      "category_name": "Women",
+      "subcategory_name": "Dress ",
+      "product_image": "https://rukminim2.flixcart.com/image/832/832/xif0q/dress/t/6/u/xl-drs00003935-street9-original-imagj797dwmw5zpd.jpeg?q=70&crop=false",
+      "product_title": "Women Peplum Black Dress",
+      "product_price": "754",
+      "product_old_price": "2599",
+      "product_description": "Good fabric, looks good given a 4 star because height was more for me I am 5.5ftGood fabric, looks good given a 4 star because height was more for me I am 5.5ft",
+      "product_stock": "5",
+      "product_rating": "3"
+    },
+    {
+      "id": "50cd",
+      "category_name": "Women",
+      "Product_size": {
+        "category_name": "Women",
+        "Product_size": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "subcategory_name": "Dress",
+        "brand_name": "SASSAFRAS",
+        "product_title": "Women Maxi Purple Dress",
+        "product_image": "https://rukminim2.flixcart.com/image/832/832/l2arp8w0/dress/j/x/q/xl-sfdrss10603-sassafras-original-imagdzcwkgsbdksy.jpeg?q=70&crop=false",
+        "product_price": "870",
+        "product_old_price": "2999",
+        "product_description": "Colour is a little dull as compared with the depicted image whereas the quality of fabric, design and finishing of the product is up to mark.\nOverall good experience!",
+        "product_stock": "80",
+        "product_rating": "3"
+      },
+      "subcategory_name": "Dress",
+      "brand_name": "SASSAFRAS",
+      "product_title": "Women Maxi Purple Dress",
+      "product_image": "https://rukminim2.flixcart.com/image/832/832/l2arp8w0/dress/j/x/q/xl-sfdrss10603-sassafras-original-imagdzcwkgsbdksy.jpeg?q=70&crop=false",
+      "product_price": "870",
+      "product_old_price": "2999",
+      "product_description": "Colour is a little dull as compared with the depicted image whereas the quality of fabric, design and finishing of the product is up to mark.\nOverall good experience!",
+      "product_stock": "80",
+      "product_rating": "3"
+    },
+    {
+      "id": "de2f",
+      "category_name": "Women",
+      "subcategory_name": "Dress",
+      "brand_name": "SASSAFRAS",
+      "product_title": "Women T Shirt Black Dress",
+      "product_image": "https://rukminim2.flixcart.com/image/832/832/jz1l7rk0/dress/g/m/z/xl-black-sfdrss1580-sassafras-original-imafgxugvhs3d9pk.jpeg?q=70&crop=false",
+      "product_price": "519",
+      "product_old_price": "1519",
+      "product_description": "The fabric quality was just amazing and so comfortable to wear. The brand has very good collection for plus size and I love it.",
+      "product_stock": "0",
+      "product_rating": "5"
+    },
+    {
+      "id": "ece6",
+      "category_name": "Women",
+      "subcategory_name": "Dress",
+      "brand_name": "SASSAFRAS",
+      "product_title": "Women Fit and Flare Red Dress",
+      "product_price": "759",
+      "product_old_price": "2484",
+      "product_description": "5Best buy till date. I'll suggest to buy one size smaller to your size for better fitting\n",
+      "product_stock": "50",
+      "product_image": "https://rukminim2.flixcart.com/image/832/832/l2arp8w0/dress/j/x/q/xl-sfdrss10603-sassafras-original-imagdzcwkgsbdksy.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "d39b",
+      "category_name": "Women",
+      "subcategory_name": "Dress",
+      "brand_name": "HARPA",
+      "product_image": "https://rukminim2.flixcart.com/image/832/832/jvfk58w0/dress/7/z/j/l-7119168-here-now-original-imafgbnv9ud3vksf.jpeg?q=70&crop=false",
+      "product_rating": "3",
+      "product_title": "Women Maxi Dark Blue Dress",
+      "product_price": "700",
+      "product_old_price": "2999",
+      "product_description": "5Dress is amazing fabric quality is very nice 🤠😻\n5Dress is amazing fabric quality is very nice 🤠😻\n5Dress is amazing fabric quality is very nice 🤠😻\n",
+      "product_stock": "15"
+    },
+    {
+      "id": "eeea",
+      "category_name": "Men",
+      "Product_size": {
+        "category_name": "Men",
+        "Product_size": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "subcategory_name": "Jackets",
+        "brand_name": "Allen Solly",
+        "product_title": "Men Solid Fleece Jacket",
+        "product_image": "https://rukminim2.flixcart.com/image/832/832/xif0q/jacket/3/q/y/4xl-1-no-menjkt04-yha-original-imags47ceagjasyh.jpeg?q=70&crop=false",
+        "product_price": "498",
+        "product_old_price": "2199",
+        "product_description": "5Very very nice product 👌 thanks fkipkart.\n5Very very nice product 👌 thanks fkipkart.\n5Very very nice product 👌 thanks fkipkart.\n",
+        "product_stock": "15",
+        "product_rating": "2"
+      },
+      "subcategory_name": "Jackets",
+      "brand_name": "Allen Solly",
+      "product_title": "Men Solid Fleece Jacket",
+      "product_image": "https://rukminim2.flixcart.com/image/832/832/xif0q/jacket/3/q/y/4xl-1-no-menjkt04-yha-original-imags47ceagjasyh.jpeg?q=70&crop=false",
+      "product_price": "498",
+      "product_old_price": "2199",
+      "product_description": "5Very very nice product 👌 thanks fkipkart.\n5Very very nice product 👌 thanks fkipkart.\n5Very very nice product 👌 thanks fkipkart.\n",
+      "product_stock": "15",
+      "product_rating": "2"
+    },
+    {
+      "id": "1a45",
+      "category_name": "Men",
+      "subcategory_name": "Jackets",
+      "brand_name": "Breil By Fort Collins",
+      "product_title": "Men Washed Jacket",
+      "product_image": "https://rukminim2.flixcart.com/image/832/832/kjhgzgw0-0/jacket/n/g/t/xxl-12288660-roadster-original-imafzfnjresfydba.jpeg?q=70&crop=false",
+      "product_stock": "20",
+      "product_description": "3So I have ordered XXL. But it looks like 3xl and still the height of it is small ..it should be more longer. The quality of the product is not worth the price .it's not thick. Nor the color seems similar to the product.\n",
+      "product_old_price": "2999",
+      "product_price": "699"
+    },
+    {
+      "id": "0aa4",
+      "category_name": "Women",
+      "subcategory_name": "Kurtas",
+      "brand_name": "BIBA",
+      "product_image": "https://rukminim2.flixcart.com/image/832/832/xif0q/kurta/e/r/r/s-ku769pnk-mokshi-original-imagk5mfhusterth.jpeg?q=70&crop=false",
+      "product_rating": "4",
+      "product_stock": "100",
+      "product_description": "3Loved the stuff wear atleast 4-5 times and still going great\n3Loved the stuff wear atleast 4-5 times and still going great\n",
+      "product_title": "Women Floral Print Viscose Rayon Straight Kurta  (Pink)",
+      "product_price": "319",
+      "product_old_price": "1799"
+    },
+    {
+      "id": "4ee6",
+      "category_name": "Women",
+      "subcategory_name": "Kurtas",
+      "brand_name": "Aurelia",
+      "product_title": "Women Block Print Pure Cotton Straight Kurta  (Blue)",
+      "product_price": "299",
+      "product_old_price": "1799",
+      "product_description": "Women Block Print Pure Cotton Straight Kurta  (Blue)\nWomen Block Print Pure Cotton Straight Kurta  (Blue)\nWomen Block Print Pure Cotton Straight Kurta  (Blue)\n",
+      "product_stock": "45",
+      "product_rating": "2",
+      "product_image": "https://rukminim2.flixcart.com/image/832/832/xif0q/kurta/p/3/h/m-ku773blu-mokshi-original-imagk5hz4xrzukmj.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "e48c",
+      "product_image": "https://rukminim2.flixcart.com/image/832/832/xif0q/kurta/s/8/q/xl-j903066brygbk-jollity-original-imag92nn6c2ukk77.jpeg?q=70&crop=false",
+      "product_rating": "3",
+      "product_stock": "40",
+      "product_description": "ilhouette is slimming on the waist and hips, while the flared hem adds volume to the lower body. This makes it a versatile option for women. It makes it a comfortable option for everyday wear and special occasions. The flared hem provides freedom of movement and makes it a comfortable option for long days ",
+      "product_old_price": "1599",
+      "product_price": "239",
+      "product_title": "Women Printed Viscose Rayon Straight Kurta  (Blue)",
+      "category_name": "Women",
+      "subcategory_name": "Kurtas",
+      "brand_name": "Aurelia"
+    },
+    {
+      "id": "9fe0",
+      "product_image": "https://www.flipkart.com/dhakre-fashion-women-floral-print-anarkali-kurta/p/itm56b82a9973f2c?pid=KTAGBJGJRHMYZBAP&lid=LSTKTAGBJGJRHMYZBAP0U87VG&marketplace=FLIPKART&q=kurtas+kurtis&store=clo%2Fcfv%2Fcib%2Frkt&srno=s_1_4&otracker=search&fm=search-autosuggest&iid=a017fa1a-512d-4c1e-81fa-b664fe53e7fa.KTAGBJGJRHMYZBAP.SEARCH&ppt=sp&ppn=sp&ssid=vilqxsjy8w0000001712757922711&qH=5985e3313e9e348f",
+      "product_rating": "3",
+      "product_stock": "40",
+      "product_description": "The fit and flare silhouette is slimming on the waist and hips, while the flared hem adds volume to the lower body. This makes it a versatile option for women. It makes it a comfortable option for everyday wear and special occasions. The flared hem provides freedom of movement and makes it a comfortable option for long days or events where you will be walking or dancing.",
+      "product_old_price": "1599",
+      "product_price": "239",
+      "product_title": "Women Printed Viscose Rayon Straight Kurta  (Blue)",
+      "category_name": "Women",
+      "subcategory_name": "Kurtas ",
+      "brand_name": "Aurelia"
+    },
+    {
+      "id": "8378",
+      "brand_name": "Remote",
+      "product_image": "https://rukminim2.flixcart.com/image/416/416/xif0q/remote-control-toy/e/7/d/remote-control-car-electronic-3d-lights-car-with-chargeable-original-imaghr6avrmd69mz.jpeg?q=70&crop=false",
+      "product_description": "Aganta Remote Control Car Electronic 3D Lights with Chargeable Battery and Charger  (Multicolor)\nAganta Remote Control Car Electronic 3D Lights with Chargeable Battery and Charger  (Multicolor)\n",
+      "product_title": "Aganta Remote Control Car Electronic 3D Lights with Chargeable Battery and Charger  (Multicolor)",
+      "category_name": "Kids",
+      "subcategory_name": "Toys",
+      "product_price": "856",
+      "product_old_price": "1299"
+    },
+    {
+      "id": "4215",
+      "brand_name": "Remote",
+      "product_image": "https://rukminim2.flixcart.com/image/416/416/xif0q/remote-control-toy/y/w/r/remote-control-super-high-speed-racing-car-with-stylish-looks-original-imagtzd4ajywcpep.jpeg?q=70&crop=false",
+      "product_description": "Aganta Remote Control Car Electronic 3D Lights with Chargeable Battery and Charger  (Multicolor)\nAganta Remote Control Car Electronic 3D Lights with Chargeable Battery and Charger  (Multicolor)\n",
+      "product_title": "Aganta Remote Control Car Electronic 3D Lights with Chargeable Battery and Charger  (Multicolor)",
+      "category_name": "Kids",
+      "subcategory_name": "Toys",
+      "product_price": "799",
+      "product_old_price": "2999",
+      "product_stock": "50"
+    },
+    {
+      "id": "8f44",
+      "category_name": "Kids",
+      "subcategory_name": "Toys",
+      "brand_name": "BESTSELLER",
+      "product_image": "https://rukminim2.flixcart.com/image/416/416/kzpw2vk0/learning-toy/v/x/3/geometric-blocks-stacker-shape-sorter-column-puzzle-stacking-set-original-imagbz2yhbgswty6.jpeg?q=70&crop=false",
+      "product_rating": "5",
+      "product_stock": "45",
+      "product_description": "Sotnof Smart Activity Learning & educational Geometry Shape & color Block game for Kids  (Multicolor)\n",
+      "product_price": "160",
+      "product_old_price": "4999",
+      "product_title": "Sotnof Smart Activity Learning & educational Geometry Shape & color Block game for Kids  (Multicolor)"
+    },
+    {
+      "id": "2ca4",
+      "category_name": "Kids",
+      "subcategory_name": "Toys",
+      "brand_name": "BESTSELLER",
+      "product_image": "https://rukminim2.flixcart.com/image/416/416/kp78e4w0/block-construction/h/f/p/best-buy-happy-house-building-blocks-creative-learning-toy-original-imag3hkumzh5xmbs.jpeg?q=70&crop=false",
+      "product_rating": "5",
+      "product_stock": "458",
+      "product_description": "Sotnof Smart Activity Learning & educational Geometry Shape & color Block game for Kids  (Multicolor)\n",
+      "product_price": "460",
+      "product_old_price": "4999",
+      "product_title": "FTAFAT Happy House Building Blocks, Learning/Educational Puzzle Toy,Best Gift for Kids  (Multicolor)"
+    },
+    {
+      "id": "5859",
+      "category_name": "Furniture",
+      "subcategory_name": "Curtains",
+      "brand_name": "HOMEMONDE",
+      "product_title": "Home Sizzler 214 cm (7 ft) Polyester Semi Transparent Door Curtain (Pack Of 2)  (Floral, Brown)",
+      "product_description": "Home Sizzler 214 cm (7 ft) Polyester Semi Transparent Door Curtain (Pack Of 2)  (Floral, Brown)\nHome Sizzler 214 cm (7 ft) Polyester Semi Transparent Door Curtain (Pack Of 2)  (Floral, Brown)\n",
+      "product_stock": "458",
+      "product_price": "2999",
+      "product_old_price": "8999",
+      "product_rating": "3",
+      "product_image": "https://rukminim2.flixcart.com/image/416/416/kpedle80/curtain/t/c/z/panel-garden-dr-brown-214-door-hs2pc000992dr-eyelet-home-sizzler-original-imag3n7yayhahavq.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "660b",
+      "category_name": "Furniture",
+      "subcategory_name": "Curtains",
+      "brand_name": "HOMEMONDE",
+      "product_title": "MISTIVA 152 cm (5 ft) Polyester Room Darkening Window Curtain (Pack Of 2)  (Solid, PRUSSIANBLUE)",
+      "product_description": "Home Sizzler 214 cm (7 ft) Polyester Semi Transparent Door Curtain (Pack Of 2)  (Floral, Brown)\nHome Sizzler 214 cm (7 ft) Polyester Semi Transparent Door Curtain (Pack Of 2)  (Floral, Brown)\n",
+      "product_stock": "458",
+      "product_price": "2999",
+      "product_old_price": "8999",
+      "product_rating": "3",
+      "product_image": "https://rukminim2.flixcart.com/image/416/416/xif0q/curtain/d/m/c/sparkle-2-152-window-5-eyelet-mistiva-original-imagrf57hhnfcjgg.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "7cff",
+      "category_name": "Furniture",
+      "subcategory_name": "Bedsheets",
+      "brand_name": "HOMEMONDE",
+      "product_title": "VBRS 210 TC Cotton King Solid Fitted (Elastic) Bedsheet  (Pack of 1, Grey)",
+      "product_description": "Home Sizzler 214 cm (7 ft) Polyester Semi Transparent Door Curtain (Pack Of 2)  (Floral, Brown)\nHome Sizzler 214 cm (7 ft) Polyester Semi Transparent Door Curtain (Pack Of 2)  (Floral, Brown)\n",
+      "product_stock": "458",
+      "product_price": "25999",
+      "product_old_price": "48999",
+      "product_rating": "3",
+      "product_image": "https://rukminim2.flixcart.com/image/416/416/ktketu80/bedsheet/p/l/q/6632-1-6-fitted-elastic-vbrs-original-imag6vw7fenk9gmn.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "9cd1",
+      "category_name": "Furniture",
+      "subcategory_name": "Bedsheets",
+      "brand_name": "HOMEMONDE",
+      "product_title": "VBRS 210 TC Cotton King Floral Fitted (Elastic) Bedsheet  (Pack of 1, Blue)",
+      "product_image": "https://rukminim2.flixcart.com/image/416/416/xif0q/bedsheet/q/g/4/dil-print-queen-bedsheet-elastic-fitted-dil-print-double-fitted-original-imag4hfkjrrgbwyx.jpeg?q=70&crop=false",
+      "product_price": "4999",
+      "product_old_price": "8999",
+      "product_description": "4VBRS 210 TC Cotton King Floral Fitted (Elastic) Bedsheet  (Pack of 1, Blue)\nVBRS 210 TC Cotton King Floral Fitted (Elastic) Bedsheet  (Pack of 1, Blue)\n",
+      "product_stock": "88"
+    }
+  ],
+  "AddCard": [
+    {
+      "id": "1b0f",
+      "productPrice": "69999",
+      "quantity": 1,
+      "userId": "NCdGJT0YCEYMTzP7jOtOPu5n0az2"
+    }
+  ]
+}
