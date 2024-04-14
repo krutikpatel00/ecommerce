@@ -880,5 +880,12 @@
       "product_stock": "88"
     }
   ],
-  "AddCard": []
+  "AddCard": [
+    {
+      "id": "5495",
+      "productPrice": "87000",
+      "quantity": "2",
+      "userId": "NCdGJT0YCEYMTzP7jOtOPu5n0az2"
+    }
+  ]
 }
