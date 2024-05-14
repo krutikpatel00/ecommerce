@@ -1,14 +1,12 @@
-import axios from 'axios'
 import React, { useContext, useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { useAuthState } from 'react-firebase-hooks/auth';
-import { auth } from '../../Firebase/Firebase';
 import CustomLoader from '../CustomLoader/CustomLoader';
 import ErrorPage from '../ErrorPage/ErrorPage';
-import { apiUrl } from '../../process.env';
 import { FirebaseContext } from '../../Context/FirebaseProvider';
+import { getDocs, collection, query, where } from 'firebase/firestore';
+import { db } from '../../Firebase/Firebase';
 const Product = () => {
 
       const { productName } = useParams();
@@ -26,9 +24,26 @@ const Product = () => {
       const [Error, setError] = useState(null)
 
       useEffect(() => {
-            axios.get(`${apiUrl}/product/?subcategory_name=${productName}`).then((res) => {
-                  let data = res.data;
-                  data = res.data.filter((pro, i) => {
+            getProduct()
+            getBrand()
+      }, [productName, setProductData, recordsPerPage, SortingData, brandName, currentPage, setSearch, Search, setBtnPage])
+
+      const getProduct = async () => {
+            try {
+
+                  const q = query(collection(db, "product"), where("subcategory_name", "==", productName));
+
+                  const querySnapshot = await getDocs(q);
+                  let data = []
+                  querySnapshot.forEach((doc) => {
+                        // doc.data() is never undefined for query doc snapshots
+                        let col = doc.data();
+                        col.id = doc.id
+                        data.push(col)
+                  });
+
+
+                  data = data.filter((pro, i) => {
                         return pro.product_title.toLowerCase().match(Search.toLowerCase())
                   })
 
@@ -60,16 +75,31 @@ const Product = () => {
                   const currentRecords = data.slice(indexOfFirstRecord,
                         indexOfLastRecord);
                   setProductData(currentRecords)
-            }).catch((error) => {
-                  setError(error.message)
-            })
-            axios.get(`${apiUrl}/brand/?subcategory_name=${productName}`).then((res) => {
-                  setBrandData(res.data)
                   setLoading(false)
+            } catch (error) {
+                  setLoading(false)
+                  setError(error.message);
+            }
+      }
 
-            }).catch((error) => setError(error.message))
-      }, [productName, setProductData, recordsPerPage, SortingData, brandName, currentPage, setSearch, Search, setBtnPage])
+      const getBrand = async () => {
+            try {
+                  const q = query(collection(db, "brand"), where("subcategory_name", "==", productName));
+                  const querySnapshot = await getDocs(q);
+                  let data = []
+                  querySnapshot.forEach((doc) => {
 
+                        let col = doc.data();
+                        col.id = doc.id
+                        data.push(col)
+
+                  });
+                  setBrandData(data)
+                  setLoading(false)
+            } catch (error) {
+
+            }
+      }
 
       const GetInputData = (e) => {
             const name = e.target.name

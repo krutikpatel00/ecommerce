@@ -577,12 +577,7 @@
       "category_name": "Men",
       "Product_size": {
         "category_name": "Men",
-        "Product_size": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
+        "Product_size": ["S", "M", "L", "XL"],
         "subcategory_name": "Jeans",
         "brand_name": "PETER ENGLAND",
         "product_title": "Men Slim Mid Rise Blue Jeans",
@@ -620,12 +615,7 @@
       "category_name": "Women",
       "Product_size": {
         "category_name": "Women",
-        "Product_size": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
+        "Product_size": ["S", "M", "L", "XL"],
         "subcategory_name": "Dress",
         "brand_name": "SASSAFRAS",
         "product_title": "Women Maxi Purple Dress",
@@ -689,12 +679,7 @@
       "category_name": "Men",
       "Product_size": {
         "category_name": "Men",
-        "Product_size": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
+        "Product_size": ["S", "M", "L", "XL"],
         "subcategory_name": "Jackets",
         "brand_name": "Allen Solly",
         "product_title": "Men Solid Fleece Jacket",

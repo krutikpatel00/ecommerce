@@ -5,14 +5,13 @@ import { useDispatch } from "react-redux";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useAuthState } from 'react-firebase-hooks/auth'
-import axios from "axios";
 import { CARDCOUNT } from "../../Redux/Action/CardAction";
 import { auth } from "../../Firebase/Firebase";
 import CustomLoader from "../CustomLoader/CustomLoader";
 import ErrorPage from "../ErrorPage/ErrorPage";
 import { Percentage } from "../../Custom/Custom";
-import { apiUrl } from "../../process.env";
-
+import { getDoc, doc, collection, addDoc, where, getDocs, query } from 'firebase/firestore'
+import { db } from "../../Firebase/Firebase";
 
 const ProductDetails = () => {
       const { id } = useParams();
@@ -24,19 +23,26 @@ const ProductDetails = () => {
       const [Error, setError] = useState(null)
 
       useEffect(() => {
-            axios
-                  .get(`${apiUrl}/product/${id}`)
-                  .then((res) => {
-                        setProductData(res.data);
-                        setLoading(false)
-                  })
-                  .catch((error) => {
-                        setLoading(false)
-                        setError(error.message)
-                  });
+            getProductData()
+            getproductdata()
       }, [id, dispatch]);
 
-      const addToCard = (e, items) => {
+      const getProductData = async () => {
+            setLoading(true)
+            try {
+                  const docSnap = await getDoc(doc(db, "product", id));
+                  let data = docSnap.data()
+                  data.id = docSnap.id
+                  setProductData(data)
+                  setLoading(false)
+
+            } catch (error) {
+                  setLoading(false)
+                  setError(error.message)
+            }
+      }
+
+      const addToCard = async (e, items) => {
             e.preventDefault();
 
             const { uid } = user
@@ -44,29 +50,66 @@ const ProductDetails = () => {
                   'productPrice': items.product_price,
                   'quantity': quantity,
                   'userId': uid,
-                  'id': items.id
+                  'ProductId': items.id
             }
-            axios.get(`${apiUrl}/AddCard/?id=${items.id}&userId=${uid}`)
-                  .then((res) => {
-                        if (res.data.length === 0) {
-                              axios.post(`${apiUrl}/AddCard`, obj)
-                                    .then((res) => {
-                                          axios.get(`${apiUrl}/AddCard/?userId=${uid}`).then((res) => {
-                                                dispatch({ type: CARDCOUNT, payload: res.data.length })
-                                          })
-                                    })
-                                    .catch((error) => {
-                                          setError(error.message)
-                                    });
-                        } else {
-                              toast.error("alerting add card");
-                        }
 
-                  })
-                  .catch((error) => {
-                        setError(error.message)
+            try {
+                  const q = query(collection(db, "addcard"), where("ProductId", "==", items.id), where("userId", "==", uid));
+                  const querySnapshot = await getDocs(q);
+                  let data = []
+                  querySnapshot.forEach((doc) => {
+                        let col = doc.data();
+                        col.id = doc.id
+                        data.push(col)
                   });
+
+                  if (data.length === 0) {
+                        await addDoc(collection(db, "addcard"), obj);
+                        getproductdata()
+
+                  } else {
+                        toast.error(`already added `)
+                  }
+
+
+
+
+            } catch (e) {
+                  console.error("Error adding document: ", e);
+            }
+
+            //       // axios.get(`${apiUrl}/AddCard/?id=${items.id}&userId=${uid}`)
+            //       //       .then((res) => {
+            //       //             if (res.data.length === 0) {
+            //       //                   axios.post(`${apiUrl}/AddCard`, obj)
+            //       //                         .then((res) => {
+            //       //                               axios.get(`${apiUrl}/AddCard/?userId=${uid}`).then((res) => {
+            //       //                                     dispatch({ type: CARDCOUNT, payload: res.data.length })
+            //       //                               })
+            //       //                         })
+            //       //                         .catch((error) => {
+            //       //                               setError(error.message)
+            //       //                         });
+            //       //             } else {
+            //       //                   toast.error("alerting add card");
+            //       //             }
+
+            //       //       })
+            //       //       .catch((error) => {
+            //       //             setError(error.message)
+            //       //       });
       };
+      const getproductdata = async () => {
+            const q = query(collection(db, "addcard"), where("userId", "==", user?.uid));
+            const querySnapshot = await getDocs(q);
+            let product = []
+            querySnapshot.forEach((doc) => {
+                  let col = doc.data();
+                  col.id = doc.id
+                  product.push(col)
+            });
+            dispatch({ type: CARDCOUNT, payload: product.length })
+      }
       if (loading) {
             return <CustomLoader />
       }

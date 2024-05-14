@@ -9,7 +9,9 @@ import { CARDCOUNT } from '../../Redux/Action/CardAction';
 import ErrorPage from '../ErrorPage/ErrorPage';
 import NoPageData from '../NoPageData/NoPageData';
 import { Percentage } from '../../Custom/Custom';
-import { apiUrl } from '../../process.env';
+import { db } from '../../Firebase/Firebase';
+import { collection, deleteDoc, doc, getDocs, query, setDoc, where } from 'firebase/firestore';
+import CustomLoader from '../CustomLoader/CustomLoader';
 const Card = () => {
       const [CardProduct, setCardProduct] = useState([])
       const [user] = useAuthState(auth);
@@ -18,89 +20,117 @@ const Card = () => {
       const [Total, setTotal] = useState(0)
       const [offer, setoffer] = useState(0)
       const [payPrice, setPayPrice] = useState(0);
+      const [loading, setLoading] = useState(true)
       const [DeliveryCharges, setDeliveryCharges] = useState(40)
+
       useEffect(() => {
             GetCardCount()
       }, [setCardProduct, user, dispatch, payPrice, offer, Total])
 
-      const GetCardCount = () => {
-            // setLoading(true)
-            axios.get(`${apiUrl}/AddCard/?userId=${user?.uid}`).then((res) => {
-                  let carddata = res.data
-                  dispatch({ type: CARDCOUNT, payload: res.data.length })
-                  axios.get(`${apiUrl}/product`).then((productRes) => {
-                        let product = productRes.data
-                        let filteredProducts = carddata.filter(card => {
-                              return (product.map(product => {
-                                    if (card.id === product.id) {
-                                          card.product_image = product.product_image
-                                          card.product_title = product.product_title
-                                          card.product_old_price = product.product_old_price
-                                          card.product_price = product.product_price
-                                          return product
-                                    } else {
-                                          return null
-                                    }
-                              }))
+      const GetCardCount = async () => {
+            try {
+                  let product = []
+                  if (user?.uid) {
+                    
+                        const q = query(collection(db, "addcard"), where("userId", "==", user.uid));
+                        const querySnapshot = await getDocs(q);
+                        querySnapshot.forEach((doc) => {
+                              let col = doc.data();
+                              col.id = doc.id
+                              product.push(col)
                         });
+                        dispatch({ type: CARDCOUNT, payload: product.length })
+                  }
 
-                        // price 
-                        let total = filteredProducts.reduce((previous, current) => {
-                              return previous + Number(current.product_old_price * current.quantity)
-                        }, 0)
-                        let totalpay = filteredProducts.reduce((previous, current) => {
-                              return previous + Number(current.product_price * current.quantity)
-                        }, 0)
-                        let off = total - totalpay
+                  const products = await getDocs(collection(db, "product"));
+                  let data = []
+                  products.forEach((doc) => {
+                        let col = doc.data();
+                        col.id = doc.id
+                        data.push(col)
+                  });
 
-                        if (total < 1000) {
-                              setDeliveryCharges(40)
-                              totalpay -= DeliveryCharges
-                        } else {
-                              setDeliveryCharges(<span className='text-decoration-line-through'>{DeliveryCharges}</span>)
-                        }
 
-                        setPayPrice(totalpay)
-                        setTotal(total)
-                        setoffer(off)
-                        setCardProduct(filteredProducts)
-                        // setLoading(false)
-                  })
+                  let filteredProducts = product.filter(card => {
+                        return (data.map(product => {
+                              if (card.ProductId === product.id) {
+                                    card.product_image = product.product_image
+                                    card.product_title = product.product_title
+                                    card.product_old_price = product.product_old_price
+                                    card.product_price = product.product_price
+                                    return product
+                              } else {
+                                    return null
+                              }
+                        }))
+                  });
 
-            }).catch(error => {
-                  // setLoading(false)
+                  // price 
+                  let total = filteredProducts.reduce((previous, current) => {
+                        return previous + Number(current.product_old_price * current.quantity)
+                  }, 0)
+                  let totalpay = filteredProducts.reduce((previous, current) => {
+                        return previous + Number(current.product_price * current.quantity)
+                  }, 0)
+                  let off = total - totalpay
+
+                  if (total < 1000) {
+                        setDeliveryCharges(40)
+                        totalpay -= DeliveryCharges
+                  } else {
+                        setDeliveryCharges(<span className='text-decoration-line-through'>{DeliveryCharges}</span>)
+                  }
+
+                  setPayPrice(totalpay)
+                  setTotal(total)
+                  setoffer(off)
+                  setCardProduct(filteredProducts)
+                  setLoading(false)
+            } catch (error) {
+                  setLoading(false)
                   setError(error.message)
-            })
+
+            }
+
       }
 
-      const RemvoeCard = (id) => {
-            // setLoading(true)
-            axios.delete(`${apiUrl}/AddCard/${id}`).then((res) => {
+      const RemvoeCard = async (id) => {
+            setLoading(true)
+            try {
+                  await deleteDoc(doc(db, 'addcard', id));
                   GetCardCount()
-                  // setLoading(false)
 
-            }).catch((error) => {
-                  // setLoading(false)
+            } catch (error) {
                   setError(error.message)
-            })
+                  setLoading(false)
+            }
       }
 
 
-      const GetInputvalue = (e, id) => {
+      const GetInputvalue = async (e, id) => {
             const value = e.target.value;
 
-            axios.get(`${apiUrl}/AddCard/${id}`).then((res) => {
-                  let data = res.data
-                  data.quantity = value
-                  axios.put(`${apiUrl}/AddCard/${id}`, data).then((res) => {
-                        console.log(res.data);
-                        GetCardCount()
-                  })
+            let data = CardProduct.filter((item) => {
+                  return item.id === id ? item : ''
             })
+
+            data[0].quantity = value
+          
+            try {
+                  await setDoc(doc(db, "addcard", id), data[0]);
+                  GetCardCount()
+            } catch (error) {
+                  setError(error);
+            }
+        
       }
 
       const ProductBuy = () => {
             alert('product buy')
+      }
+
+      if (loading) {
+            return <CustomLoader />
       }
 
       if (Error) {

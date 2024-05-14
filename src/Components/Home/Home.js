@@ -8,28 +8,60 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import axios from 'axios';
 import Container from 'react-bootstrap/Container';
+import { getDocs, collection } from 'firebase/firestore'
+import { db } from '../../Firebase/Firebase';
 import { useNavigate } from 'react-router-dom'
-import { apiUrl } from '../../process.env';
+import CustomLoader from '../CustomLoader/CustomLoader';
+import ErrorPage from '../ErrorPage/ErrorPage';
 const Home = () => {
   const navigation = useNavigate()
   const [index, setIndex] = useState(0);
   const [Product, setProduct] = useState([])
   const [Caregory, setCategory] = useState([])
-  const [error, setError] = useState()
+  const [Error, setError] = useState(null)
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    axios.get(`${apiUrl}/category`).then((res) => {
-      setCategory(res.data)
-    }).catch((err) => {
-      setError(err)
-    })
-    axios.get(`${apiUrl}/product`).then((res) => {
-      setProduct(res.data)
-    }).catch((err) => {
-      setError(err)
-    })
+    getcategory()
+    getProduct()
   }, [])
 
+  const getcategory = async () => {
+    try {
+      const querySnapshot = await getDocs(collection(db, "category"));
+      let data = []
+      querySnapshot.forEach((doc) => {
+        let col = doc.data();
+        col.id = doc.id
+        data.push(col)
+      });
+
+      setCategory(data)
+      setLoading(false)
+
+    } catch (error) {
+      setLoading(false)
+      setError(error.message);
+    }
+  }
+
+  const getProduct = async () => {
+    try {
+      const querySnapshot = await getDocs(collection(db, "product"));
+      let data = []
+      querySnapshot.forEach((doc) => {
+        let col = doc.data();
+        col.id = doc.id
+        data.push(col)
+      });
+
+      setProduct(data)
+
+    } catch (error) {
+      setLoading(false)
+      setError(error.message);
+    }
+  }
   // Slider Banner
   const handleSelect = (selectedIndex) => {
     setIndex(selectedIndex);
@@ -69,6 +101,14 @@ const Home = () => {
       }]
 
   };
+
+  if (loading) {
+    return <CustomLoader />
+  }
+  if (Error) {
+    return <ErrorPage error={Error} />
+  }
+
   return (
     <div>
       {/* Slider Banner */}
