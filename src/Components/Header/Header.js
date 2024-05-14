@@ -84,7 +84,7 @@ const Header = () => {
                   setLoading(false)
             } catch (error) {
                   setLoading(false)
-                  setError(error.message);
+                  console.log(error);
             }
       }
 
